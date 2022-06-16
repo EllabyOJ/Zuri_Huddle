@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300;400;700&family=Lexend+Deca:wght@300;400&family=Open+Sans:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.first{
+    height: 100vh;
+    width: 100%;
+    padding: 30px 80px 40px;
+    background: url(/images/bg-hero-desktop.svg);
+    background-color: hsl(193, 100%, 96%);
+}
+
+.huddle{
+    display: flex;
+    justify-content: space-between;
+}
+
+.huddle button{
+    border: none;
+    padding: 10px 50px;
+    background-color: #fff;
+    border-radius: 50px;
+    box-shadow: 1px 1px 7px rgba(209, 199, 199, 0.7);
+    font-family: 'Open-sans', sans-serif;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.left_container{
+    width: 50%;
+}
+
+.left_container h2{
+    font-size: 3rem;
+    line-height: 3.5rem;
+    padding-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.left_container p{
+    font-size: 18px;
+    line-height: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    padding-bottom: 40px;
+}
+
+.left_container button, .build button{
+    border: none;
+    border-radius: 40px;
+    padding: 10px 40px;
+    color: #fff;
+    font-family: 'open-sans', sans-serif;
+    background-color: hsl(322, 100%, 66%);
+}
+
+.right_container{
+    width: 50%;
+}
+
+.right_container img{
+    width: 100%;
+}
+
+.section_two{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 150px 70px 10px;
+}
+
+.grow{
+    display: flex;
+    align-items: center;
+    padding: 30px 0px 30px 150px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    box-shadow: 1px 1px 7px rgba(209, 199, 199, 0.7)
+}
+
+.left, .right{
+    width: 50%;
+}
+
+.grow h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.grow p{
+    font-size: 15px;
+    line-height: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: hsl(208, 11%, 55%);
+}
+
+.grow img{
+    width: 90%;
+}
+
+.build{
+    width: 50%;
+    box-shadow: 1px 1px 7px rgba(209, 199, 199, 0.7);
+    border-radius: 10px;
+    background-color: #fff;
+    margin: 100px auto -80px;
+    text-align: center;
+    margin-top: 70px;
+    padding: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.build h2{
+    padding-bottom: 30px;
+}
+
+.build button{
+    padding: 15px 100px;
+}
+
+.section_three{
+    background-color: hsl(192, 100%, 9%);
+    color: #d6d2d2;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    padding: 100px 0 70px 100px;
+}
+
+.section_three img{
+    margin-top: 60px;
+    background-color: #fff;
+}
+
+.container_three{
+    display: flex;
+    margin-top: 30px;
+}
+.one{
+    width: 40%;
+}
+
+.contact{
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.contact i{
+    padding: 3px 15px 0 0;
+}
+
+#location{
+    padding-right: 19px;
+}
+
+.section_three ul{
+    margin: 0 70px;
+}
+
+.section_three a{
+    text-decoration: none;
+    color: #d6d2d2;
+}
+
+.section_three li{
+    padding-bottom: 12px;
+    list-style-type: none;
+}
+
+#socials{
+    display: flex;
+}
+
+#socials li{
+    padding-right: 15px;
+}
+
+#socials i{
+    border: 1px solid #fff;
+    font-size: 10px;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+footer{
+    text-align: end;
+    margin-top: 40px;
+    padding-right: 80px;
+}
+
+
+@media only screen and (max-width: 1199px) {
+    .container_three, .section_two, .container, .grow{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left_container{
+        width: 100%;
+        text-align: center;
+    }
+
+    .right_container{
+        width: 100%;
+    }
+
+    .first{
+        padding: 30px 45px 40px;
+    }
+
+    .first h2{
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    .first p{
+        font-size: 1.1rem;
+    }
+
+    .one{
+        width: 100%;
+    }
+
+    footer{
+        text-align: center;
+    }
+}
