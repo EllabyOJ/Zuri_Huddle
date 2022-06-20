@@ -201,7 +201,7 @@ footer{
 }
 
 
-@media only screen and (max-width: 1199px) {
+@media only screen and (max-width: 840px) {
     .container_three, .section_two, .container, .grow{
         display: flex;
         flex-direction: column;
@@ -232,11 +232,11 @@ footer{
 
     .first h2{
         font-size: 2rem;
-        line-height: 2.5rem;
+        line-height: 20px;
     }
 
     .first p{
-        font-size: 1.1rem;
+        font-size: 15px;
     }
 
     .grow{
