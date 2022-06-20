@@ -141,7 +141,7 @@
 
 .section_three img{
     margin-top: 60px;
-    background-color: #fff;
+    filter: brightness(0) invert(1);
 }
 
 .container_three{
@@ -207,6 +207,11 @@ footer{
         flex-direction: column;
     }
 
+    .huddle button{
+        padding: 5px 50px;
+        margin-top: 40px;
+    }
+
     .left_container{
         width: 100%;
         text-align: center;
@@ -218,6 +223,11 @@ footer{
 
     .first{
         padding: 30px 45px 40px;
+        height: 130vh;
+    }
+
+    .first img{
+        margin-top: 40px;
     }
 
     .first h2{
@@ -229,8 +239,31 @@ footer{
         font-size: 1.1rem;
     }
 
-    .one{
+    .grow{
         width: 100%;
+        padding: 20px 0;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .build{
+        width: 80%;
+    }
+
+    .build button{
+        padding: 10px 50px;
+    }
+
+    .section_three{
+        padding: 70px 20px;
+    }
+
+    .two, .three{
+        margin: 0 -50px;
+    }
+
+    .four{
+        margin: 20px 20% -20px;
     }
 
     footer{
