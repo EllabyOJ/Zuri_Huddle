@@ -224,7 +224,8 @@ footer{
 
     .first{
         padding: 30px 45px 40px;
-        height: 90vh;
+        height: 100vh;
+        margin-bottom: 40px;
     }
 
     .left, .right{
@@ -237,7 +238,7 @@ footer{
     }
 
     .right_container img{
-        margin-top: 70px;
+        margin-top: 40px;
         width: 100%;
     }
 
@@ -251,19 +252,18 @@ footer{
     }
 
     .grow{
-        width: 100%;
+        width: 90%;
         padding: 20px 0;
         justify-content: center;
         text-align: center;
     }
 
     .grow h2{
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .grow p{
-        font-size: 15px;
-        padding-bottom: 10px;
+        font-size: 14px;
     }
 
     #flow{
