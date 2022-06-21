@@ -225,7 +225,7 @@ footer{
     .first{
         padding: 30px 45px 40px;
         height: 130vh;
-        margin-bottom: 70px;
+        margin-bottom: 40px;
     }
 
     .left, .right{
@@ -256,6 +256,7 @@ footer{
         padding: 20px 0;
         justify-content: center;
         text-align: center;
+        margin-top: 20px;
     }
 
     .grow h2{
