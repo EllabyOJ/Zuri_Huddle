@@ -246,6 +246,11 @@ footer{
         text-align: center;
     }
 
+    #flow{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
     .build{
         width: 80%;
     }
