@@ -76,7 +76,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin: 150px 70px 10px;
+    margin: 150px 20px 10px;
 }
 
 .grow{
@@ -96,10 +96,11 @@
     font-family: 'Poppins', sans-serif;
     font-size: 30px;
     padding-bottom: 20px;
+    white-space: nowrap;
 }
 
 .grow p{
-    font-size: 15px;
+    font-size: 14px;
     line-height: 1.5rem;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -208,7 +209,7 @@ footer{
     }
 
     .huddle button{
-        padding: 5px 50px;
+        padding: 5px 20px;
         margin-top: 40px;
     }
 
@@ -223,16 +224,26 @@ footer{
 
     .first{
         padding: 30px 45px 40px;
-        height: 130vh;
+        height: 90vh;
+    }
+
+    .left, .right{
+        width: 80%;
     }
 
     .first img{
         margin-top: 40px;
+        width: 50%;
+    }
+
+    .right_container img{
+        margin-top: 70px;
+        width: 100%;
     }
 
     .first h2{
-        font-size: 2rem;
-        line-height: 2.5rem;
+        font-size: 20px;
+        line-height: 2rem;
     }
 
     .first p{
@@ -246,13 +257,28 @@ footer{
         text-align: center;
     }
 
+    .grow h2{
+        font-size: 20px;
+    }
+
+    .grow p{
+        font-size: 15px;
+        padding-bottom: 10px;
+    }
+
     #flow{
         display: flex;
         flex-direction: column-reverse;
     }
 
     .build{
-        width: 80%;
+        width: 100%;
+        padding: 30px 0;
+    }
+
+    .build h2{
+        white-space: nowrap;
+        font-size: 18px;
     }
 
     .build button{
@@ -263,15 +289,20 @@ footer{
         padding: 70px 20px;
     }
 
+    .one{
+        width: 100%;
+    }
+
     .two, .three{
         margin: 0 -50px;
     }
 
     .four{
-        margin: 20px 20% -20px;
+        margin: 20px 10% 0px;
     }
 
     footer{
-        text-align: center;
+        white-space: nowrap;
+        margin: auto;
     }
 }
