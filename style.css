@@ -8,7 +8,7 @@
 
 
 .first{
-    height: 100vh;
+    height: 100%;
     width: 100%;
     padding: 30px 80px 40px;
     background: url(/images/bg-hero-desktop.svg);
@@ -40,7 +40,7 @@
 }
 
 .left_container h2{
-    font-size: 3rem;
+    font-size: 2.5rem;
     line-height: 3.5rem;
     padding-bottom: 30px;
     font-family: 'Poppins', sans-serif;
@@ -48,8 +48,8 @@
 }
 
 .left_container p{
-    font-size: 18px;
-    line-height: 1.5rem;
+    font-size: 16px;
+    line-height: 1.8rem;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     padding-bottom: 40px;
@@ -66,6 +66,7 @@
 
 .right_container{
     width: 50%;
+    margin-left: 50px;
 }
 
 .right_container img{
@@ -220,11 +221,12 @@ footer{
 
     .right_container{
         width: 100%;
+        margin-left: 0;
     }
 
     .first{
         padding: 30px 45px 40px;
-        height: 100vh;
+        height: 100%;
         margin-bottom: 40px;
     }
 
@@ -243,12 +245,17 @@ footer{
     }
 
     .first h2{
-        font-size: 20px;
+        font-size: 1.5rem;
         line-height: 2rem;
     }
 
     .first p{
         font-size: 15px;
+        line-height: 1.5rem;
+    }
+
+    .section_two{
+        margin-top: 0px;
     }
 
     .grow{
